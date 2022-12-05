@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <thread>
 #include <mutex>
+#include <functional>
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
