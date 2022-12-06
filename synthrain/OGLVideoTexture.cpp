@@ -4,6 +4,7 @@
 #include <SDL2/SDL_image.h>
 #include "imgui/imgui.h"
 #include <sstream>
+#include <stdio.h>
 
 #ifdef _WIN32
 extern "C"{
