@@ -189,8 +189,8 @@ int main(int, char**)
 					}
 					else { //make new config
 						std::ofstream out_cfgfile("./config.json");
-						config["data"]["input_folder"] = "./examples";
-						config["data"]["use_sequences"] = { "00" };
+						config["data"]["input_folder"] = "./root_data/rootA";
+						config["data"]["use_sequences"] = { "" };
 						config["data"]["output_folder"] = "./out";
 
 						{
